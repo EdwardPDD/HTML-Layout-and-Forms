@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--
+            File: listform.htm
+            Author: Edward Pena de Dios
+            Date: September 25, 2026
+        -->
+
+        <meta name="description" content="Mailing list form for Edward Pena de Dios">
+        <meta name="keywords" content="HTML5, forms, mailing list, web development">
+        <meta name="author" content="Edward Pena de Dios">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+
+        <title>Join My Mailing List | Edward Pena de Dios</title>
+
+        <style>
+            #header {
+                text-align: center;
+            }
+
+            #wrapper {
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            #home_link {
+                text-align: center;
+            }
+
+            #footer {
+                width: 100%;
+            }
+
+            #footer_email {
+                text-align: right;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h2 id="header">Join My Mailing List</h2>
+        </header>
+
+        <hr>
+
+        <main>
+            <div id="wrapper">
+
+                <form action="http://irsc.chadcalvert.com/COP2830/add2list.php" method="get" id="mailing_list">
+
+                    <p><strong>Please provide the following data:</strong></p>
+
+                    <p>
+                        <label for="firstname">First name:</label>
+                        <input type="text" name="firstname" id="firstname" size="12">
+                    </p>
+
+                    <p>
+                        <label for="lastname">Last name:</label>
+                        <input type="text" name="lastname" id="lastname" size="12">
+                    </p>
+
+                    <p>
+                        <label for="emailadr">Email address:</label>
+                        <input type="text" name="emailadr" id="emailadr" size="12">
+                    </p>
+
+                    <p>
+                        Gender:
+                        <label for="female">
+                            <input type="radio" name="gender" id="female" value="female">Female
+                        </label>
+
+                        <label for="male">
+                            <input type="radio" name="gender" id="male" value="male">Male
+                        </label>
+                    </p>
+
+                    <p>
+
+                        <label for="public">List me in your public directory:</label>
+                        <input type="checkbox" name="public" id="public" value="y">
+                        
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Add my data">
+                    </p>
+
+                    
+
+                </form>
+
+            </div>
+        </main>
+
+         <hr>
+
+            <p id="home_link">
+               <a href="../home.htm">
+               <img src="http://irsc.chadcalvert.com/COP2830/img/home.gif" alt="home icon" style="border:0"></a>
+               to my Home Page 
+            </p>
+
+        <hr>
+
+         <footer>
+             <table id="footer">
+                 <tr>
+                     <td id="footer_email">
+                        Email: <a href="mailto:epena1@mail.irsc.edu">epena1@mail.irsc.edu</a>
+                     </td>
+                 </tr>
+             </table>
+         </footer>
+
+    </body>
+</html>
