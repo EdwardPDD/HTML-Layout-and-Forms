@@ -2,6 +2,12 @@
 
 A multi-page HTML5 website demonstrating page structure, navigation, relative links, internal page anchors, and HTML forms. This project was developed to practice organizing multiple webpages across different directories while maintaining functional navigation between them.
 
+## Live Demo
+
+View the live website here:
+
+https://edwardpdd.github.io/HTML-Layout-and-Forms/home.htm
+
 ## Project Overview
 
 The website consists of three interconnected pages:
